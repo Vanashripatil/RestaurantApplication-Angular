@@ -1,0 +1,39 @@
+<div class="container">
+  <form [formGroup]="signup"> 
+
+    <div class="form-outline mb-4">
+      <label class="control-label col-sm-2" for="name">Name</label>
+        <div class="col-sm-4">
+          <input formControlName="name" type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+        </div>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-sm-4">
+          <input formControlName="email" type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+    </div>
+
+    <div class="form-outline mb-4">
+      <label class="control-label col-sm-2" for="mobile">Mobile</label>
+        <div class="col-sm-4">
+          <input formControlName="mobile" type="number" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile">
+        </div>
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="control-label col-sm-2" for="password">Password</label>
+        <div class="col-sm-4">
+          <input formControlName="password" type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        </div>
+    </div>
+    <!-- Submit button -->
+    <button type="button" class="btn btn-primary"  (click)="signUpForm()">Sign in</button>
+  
+   
+  </form>
+  
+  </div>

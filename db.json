@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Punef",
+      "email": "Pune@gmail.com",
+      "mobile": "9876543210",
+      "address": "Pune",
+      "service": "MisalPavf"
+    },
+    {
+      "id": 2,
+      "name": "Pune",
+      "email": "Pune@gmail.com",
+      "mobile": "98765432101",
+      "address": "Pune",
+      "service": "MisalPav"
+    }
+  ],
+  "comments": [
+    {
+      "name": "Vanashri",
+      "email": "admin11@gmail.com",
+      "mobile": 1234567890,
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "j",
+      "email": "j",
+      "mobile": 1,
+      "password": "j",
+      "id": 2
+    },
+    {
+      "name": "r",
+      "email": "r",
+      "mobile": 4,
+      "password": "4",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
